@@ -63,7 +63,7 @@ input{
 
 .widget .weatherIcon {
   
-  height: 40%;
+  height:30%;
   width: 100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -90,7 +90,7 @@ input{
 .widget .weatherInfo .temperature {
   flex: 0 0 40%;
   width: 100%;
-  font-size: 5rem;
+  font-size: 7rem;
   display: flex;
   justify-content: space-around;
 }
@@ -106,12 +106,12 @@ input{
 
 .widget .weatherInfo .description .weatherCondition {
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 100;
 }
 
 .widget .weatherInfo .description .place {
-  font-size: 1.8rem;
+  font-size: 3rem;
 }
 
 .widget .date {
@@ -126,7 +126,8 @@ input{
   font-size: 3rem;
   font-weight: 800;
   text-align: center;
-  margin-left:0.9rem;
+  margin-left:0.96rem;
+  margin-bottom:8rem;
 
 }
 
